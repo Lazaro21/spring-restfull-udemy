@@ -1,7 +1,8 @@
-package br.com.erudio.exceptions.handler;
+package com.erudio.crud.exceptions.handler;
 
-import br.com.erudio.exceptions.ExceptionResponse;
-import br.com.erudio.exceptions.ResourceNotFoundException;
+
+import com.erudio.crud.exceptions.ExceptionResponse;
+import com.erudio.crud.exceptions.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
